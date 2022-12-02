@@ -23,6 +23,12 @@
     background-color: #137d0d;
 }
 
+/* --------------------------------------------------General */
+
+.inline-block {
+    display: inline-block;
+}
+
 /* --------------------------------------------------Special padding / margins / text */
 
 h1,h2,h3,h4 {
@@ -143,3 +149,63 @@ footer {
     min-height: 120px;
     margin: 0;
 }
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    /* transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; */
+}
+
+.fa-download:hover {
+    color: #e67e22;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f; 
+}
+
+.fa-facebook:hover {
+    background-color: #4267B2;
+}
+
+.fa-twitter:hover {
+    background-color: #1DA1F2;
+}
+
+.fa-linkedin:hover {
+    background-color: #0072b1;
+}
+
+.fa-pinterest:hover {
+    background-color: #E60023;
+}
+
+.fa-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.fa-youtube:hover {
+    background-color: #FF0000;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
