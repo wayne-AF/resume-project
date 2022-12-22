@@ -19,6 +19,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -31,8 +35,16 @@
     background-color: #3498db;
 }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
 .ui-menu-color-download {
-    background-color: #137d0d;
+    background-color: #d9a81d;
 }
 
 /* --------------------------------------------------General */
